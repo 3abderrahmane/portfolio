@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/3abderrahmane/portfolio/issues"
   },
-  "homepage": "https://github.com/3abderrahmane/portfolio/",
+  "homepage": "https://github.com/3abderrahmane/portfolio/blob/main/dist/index.html/",
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "webpack": "^5.75.0",
