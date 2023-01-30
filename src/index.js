@@ -1,18 +1,21 @@
-import { pageLoad } from "./pageload"
+import { pageLoad } from "./pageload";
 import { renderHomePage } from "./home";
-import { renderMenuPage } from "./menu";
+import { renderAboutPage } from "./about";
+import { renderSkillsPage } from "./skills";
+import { renderEducationPage } from "./education";
+import { renderExperiencePage } from "./experience";
+import { renderProjectsPage } from "./projects";
 import { renderContactPage } from "./contact";
 
 const tabs = document.querySelectorAll("[data-tab-target]");
 const tabContents = document.querySelectorAll("[data-tab-content]");
 const burger = document.querySelector(".hamburger");
 
-//Hamburger menu
+//Haburger menu
 burger.addEventListener("click", () => {
   document.querySelector("ul").classList.toggle("active");
   burger.classList.toggle("toggle");
 });
-
 // Navigation tabs
 tabs.forEach((tab) =>
   tab.addEventListener("click", () => {
@@ -37,5 +40,3 @@ document.querySelector(".order-now").addEventListener("click", () => {
 document.querySelector(`[type="submit"]`).addEventListener("click", () => {
   document.querySelector("form").reset();
 });
-
-console.log(`Today is ${new Date().toUTCString()}. Very nice.`);

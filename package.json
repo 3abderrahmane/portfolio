@@ -1,15 +1,27 @@
 {
-  "name": "the-bakery",
+  "name": "port",
   "version": "1.0.0",
-  "description": "My Bakery",
-  "main": "index.js",
+  "description": "",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Abderrahmane Chagour",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3abderrahmane/Mysweets.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3abderrahmane/Mysweets/issues"
+  },
+  "homepage": "https://github.com/3abderrahmane/Mysweets#readme",
   "devDependencies": {
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
