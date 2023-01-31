@@ -851,13 +851,15 @@
     nav ul.activate {
       left: 0;
     }
-    #logo{
-      margin-left: 42%;
+    #logo {
+      display: block;
+      margin: auto;
     }
-    .riseup{
+      
+    .riseup {
         margin-top: - 250px;
     }
-    .risehalf{
+    .risehalf {
         margin-top: -100px;
       }
     .summary {
