@@ -10,7 +10,7 @@ const renderHomePage = (() => {
             <button type="button" class="hire-me">Hire me</button>
           </a>
           <div class="img-holder">
-            <img src="img/me.jpg" alt="profile picture" width="200px" height="200px">
+            <img src="img/me.jpg" alt="profile picture" width="200px" height="266px">
           </div>
           <a href="files/resume.pdf" download=""><button class="download">Download Resume</button></a>
     </section>`;
