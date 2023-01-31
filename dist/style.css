@@ -160,8 +160,10 @@
     color: black;
     cursor: pointer;
   }
-  
-  .img-holder img {
+  .download {
+    width: 200px;
+  }
+   .img-holder img {
     border: 1px solid;
     border-radius: 50%;
   }
@@ -894,8 +896,8 @@
   }
 
   
-  /* responsive with max width 600px  */
-  @media (max-width: 600px) {
+  /* responsive with max width 625px  */
+  @media (max-width: 625px) {
     #home {
       flex-direction: column;
       justify-content: center;
